@@ -49,7 +49,7 @@ NOSTrailLength = 0                             ; 0 = Default set by game | Value
 NOSTrailPositionScalar = 0.0                   ; 0 = Default (no offset) | Values > 0 offset trail position relative to tail lights
 NOSFlareTrailPauseFix = 0                      ; 0 = Off (Default) | 1 = Keep NOS flare trail visible/frozen while paused
 NOSTrailFixForHighFPS = 1                      ; 0 = Off | 1 = Fix trail flicker and scale length properly at high FPS (Default)
-NOSTrailFadeOut = 15                           ; 0 = Off | 1 to 80 = Percentage of trail tip to fade out smoothly into background (Default: 15)
+NOSTrailFadeOut = 40                           ; 0 = Off | 1 to 80 = Percentage of trail tip to fade out smoothly into background (Default: 40)
 ```
 
 | Setting | Description | Default |
@@ -59,7 +59,7 @@ NOSTrailFadeOut = 15                           ; 0 = Off | 1 to 80 = Percentage 
 | `NOSTrailPositionScalar` | Fine-tunes the origin anchor position relative to taillights. | `0.0` |
 | `NOSFlareTrailPauseFix` | Keeps trails visible and frozen at 360° angles during pause. | `0` |
 | `NOSTrailFixForHighFPS` | Eliminates flickering and fixes length scaling at >60 FPS. | `1` |
-| `NOSTrailFadeOut` | Percentage (1–80%) of the trail tip that fades out smoothly. | `15` |
+| `NOSTrailFadeOut` | Percentage (1–80%) of the trail tip that fades out smoothly. | `40` |
 
 ---
 
