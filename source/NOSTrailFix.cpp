@@ -11,7 +11,7 @@ namespace {
         float NOSTrailPositionScalar = 0.0f;
         int NOSFlareTrailPauseFix = 0;
         int NOSTrailFixForHighFPS = 1;
-        float NOSTrailFadeOut = 15.0f;
+        float NOSTrailFadeOut = 40.0f;
 
         void Load() {
             char exePath[MAX_PATH] = { 0 };
@@ -47,7 +47,7 @@ namespace {
 
             buf[0] = 0;
             GetPrivateProfileStringA("NOSTRAIL", "NOSTrailFadeOut", "", buf, sizeof(buf), iniStr.c_str());
-            if (!buf[0]) GetPrivateProfileStringA("NOS TRAIL", "NOSTrailFadeOut", "15", buf, sizeof(buf), iniStr.c_str());
+            if (!buf[0]) GetPrivateProfileStringA("NOS TRAIL", "NOSTrailFadeOut", "40", buf, sizeof(buf), iniStr.c_str());
             NOSTrailFadeOut = static_cast<float>(atof(buf));
             if (NOSTrailFadeOut < 0.0f) NOSTrailFadeOut = 0.0f;
             if (NOSTrailFadeOut > 80.0f) NOSTrailFadeOut = 80.0f;

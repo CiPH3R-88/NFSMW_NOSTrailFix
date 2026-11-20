@@ -67,7 +67,7 @@ namespace NOSTrailFix {
     inline float s_ActiveHz = 60.0f;
     // Code-level master toggle: set to false to completely disable the fade-out feature
     inline constexpr bool kEnableNOSTrailFadeOut = true;
-    inline float s_NOSTrailFadePercent = 15.0f;
+    inline float s_NOSTrailFadePercent = 40.0f;
     inline float s_ActiveTrailFade = 1.0f;
     inline bVector3 s_CarPos = { 0.0f, 0.0f, 0.0f };
     inline bVector3 s_TotalTrailDir = { 0.0f, 0.0f, 0.0f };
