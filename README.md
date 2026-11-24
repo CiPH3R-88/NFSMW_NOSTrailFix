@@ -73,4 +73,4 @@ NOSTrailFadeOut = 40                           ; 0 = Off | 1 to 80 = Percentage 
 ## Credits
 
 - **nlg** — For providing the IDA Pro database for NFS Most Wanted.
-- **ThirteenAG** — Referred to for initial research and ASI loading infrastructure.
+- **ThirteenAG** — Referred to for initial research.
