@@ -1,4 +1,4 @@
-# NFSMW_NOSTrailFix
+# NFSMW_NOSTrailFix ![Latest Release Downloads](https://img.shields.io/github/downloads/CiPH3R-88/NFSMW_NOSTrailFix/latest/total)
 
 A lightweight, modern visual enhancement plugin for **Need for Speed: Most Wanted (2005) v1.3**, restoring, fixing, and expanding nitrous flare and trail effects.
 
